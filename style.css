@@ -1,80 +1,194 @@
-:root{
-    --vermelho: #D6000D;
+:root {
+  --vermelho: #d6000d;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
-body{
-    width: 100%;
-    height: 100%;
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 /* Header */
 
-header{
-    border: 1px solid red;
-}
-
 /* Logo */
-.logo{
-    margin-left: 150px;
-    width: 160px;
-    border: 1px solid blue;
-    float: left;
+.logo {
+  margin-left: 150px;
+  width: 160px;
+  float: left;
 }
 
-.logo img{
-    width: 160px;
-    height: max-content;
+.logo img {
+  width: 160px;
+  height: max-content;
 }
 
 /* Menu */
-.navbar{
-    margin-top: 30px;
-    border: 1px solid blue;
-    float: right;
+.navbar {
+  margin-top: 30px;
+  float: right;
 }
 
-.navbar ul{
-    margin: auto auto;
-    border: 1px solid blue;
-    text-align: center;
-    margin-right: 40px;
-    float: right;
+.navbar ul {
+  margin: auto auto;
+  text-align: center;
+  margin-right: 40px;
+  float: right;
 }
 
-.navbar ul li {
-    width: 70px;
-    height: 28px;
-    margin-left: 50px;
-    list-style-type: none;
-    border: 1px solid blue;
-    float: left;
+.navbar li {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 60px;
+  margin-left: 50px;
+  list-style-type: none;
+  float: left;
 }
 
-/* Container 1 */
+.navbar li button {
+  font-size: 26px;
+  border-radius: 15px;
+  width: 230px;
+  height: 60px;
+  border: none;
+  color: white;
+  background-color: #d6000d;
+}
 
-.img-1{
-    margin-top: 100px;
-    float: left;
+/* Primeiro container */
+
+.container-1 {
+  margin: 140px auto 100px;
+  width: max-content;
+}
+
+/* Imagem 1 */
+.img-1 {
+  margin-right: 100px;
+  float: left;
 }
 
 .img-1 img {
-    width: 500px;
+  width: 560px;
+  height: 460px;
 }
 
-.texto-1{
-    margin-top: 100px;
-    float: left;
+/* Texto 1 */
+.texto-1 {
+  padding-top: 55px;
+  width: 560px;
+  height: 460px;
+  float: left;
 }
 
-.botao-1{
-    display: block;
+.texto-1 h2 {
+  font-size: 32px;
 }
+
+.texto-1 h1 {
+  color: #d6000d;
+  font-size: 77px;
+}
+
+.texto-1 input {
+  border: none;
+  border-radius: 15px;
+  font-size: 28px;
+  margin-top: 70px;
+  width: 380px;
+  height: 64px;
+  color: white;
+  background-color: #d6000d;
+}
+
+/* Container 2 */
+
+.container-2 {
+  margin: 0 auto;
+  width: max-content;
+  /* background-color: #D6000D; */
+}
+
+/* Lista */
+.texto-2 {
+  margin-top: 150px;
+  margin-right: 150px;
+  float: left;
+}
+
+.texto-2 ul {
+  /* background-color: blue; */
+  list-style: none;
+  float: left;
+}
+
+/* Icones */
+
+.icones {
+  margin-right: 20px;
+}
+
+.icones i {
+  line-height: 50px;
+  font-size: 24px;
+}
+
+/* Lista lateral */
+
+.menu li {
+  line-height: 50px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+/* Imagem esquerda */
+.img-2 {
+  float: right;
+}
+
+.img-2 img {
+  width: 650px;
+  height: 550px;
+}
+
+.texto-2 i {
+  color: #d6000d;
+}
+
+/* Contato */
+
+.contato{
+    margin-bottom: 100px;
+}
+.contato h2{
+    font-size: 20px;
+}
+
+.cx-celular{
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
+.ligar{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #d6000d;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
