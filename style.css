@@ -58,3 +58,19 @@ header{
     border: 1px solid blue;
     float: left;
 }
+
+/* Container 1 */
+
+.img-1{
+    margin-top: 100px;
+    float: left;
+}
+
+.img-1 img {
+    width: 500px;
+}
+
+.texto-1{
+    margin-top: 100px;
+    float: left;
+}
