@@ -192,3 +192,23 @@ body {
     height: 40px;
 }
 
+/* Avaliação */
+
+.circulo{
+  float: left;
+  font-size: 100px;
+}
+
+.avaliacao-1{
+  width: 600px;
+  height: 200px;
+  background-color: #d6000d;
+}
+
+.comentario{
+  float: left;
+}
+
+.nome-sobre{
+  float: left;
+}
