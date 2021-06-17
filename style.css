@@ -1,5 +1,6 @@
 :root {
   --vermelho: #d6000d;
+  --Cinza: #dcdcdc;
 }
 
 * {
@@ -46,7 +47,7 @@ body {
 
 .navbar li {
   font-weight: 300;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 60px;
   margin-left: 50px;
   list-style-type: none;
@@ -54,13 +55,13 @@ body {
 }
 
 .navbar li button {
-  font-size: 26px;
+  font-size: 22px;
   border-radius: 15px;
-  width: 230px;
-  height: 60px;
+  width: 200px;
+  height: 45px;
   border: none;
   color: white;
-  background-color: #d6000d;
+  background-color: var(--vermelho);
 }
 
 /* Primeiro container */
@@ -77,8 +78,8 @@ body {
 }
 
 .img-1 img {
-  width: 560px;
-  height: 460px;
+  width: 500px;
+  height: 400px;
 }
 
 /* Texto 1 */
@@ -90,23 +91,23 @@ body {
 }
 
 .texto-1 h2 {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .texto-1 h1 {
-  color: #d6000d;
-  font-size: 77px;
+  color: var(--vermelho);
+  font-size: 68px;
 }
 
 .texto-1 input {
   border: none;
   border-radius: 15px;
-  font-size: 28px;
+  font-size: 24px;
   margin-top: 70px;
-  width: 380px;
-  height: 64px;
+  width: 350px;
+  height: 60px;
   color: white;
-  background-color: #d6000d;
+  background-color: var(--vermelho);
 }
 
 /* Container 2 */
@@ -114,7 +115,7 @@ body {
 .container-2 {
   margin: 0 auto;
   width: max-content;
-  /* background-color: #D6000D; */
+  /* background-color: var(--vermelho); */
 }
 
 /* Lista */
@@ -160,55 +161,155 @@ body {
 }
 
 .texto-2 i {
-  color: #d6000d;
+  color: var(--vermelho);
 }
 
 /* Contato */
 
-.contato{
-    margin-bottom: 100px;
+.contato {
+  margin-bottom: 100px;
 }
-.contato h2{
-    font-size: 20px;
-}
-
-.cx-celular{
-    border-radius: 5px;
-    background-color: #dcdcdc;
-    border: none;
-    width: 200px;
-    height: 40px;
+.contato h2 {
+  font-size: 20px;
 }
 
-.ligar{
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 5px;
-    color: white;
-    background-color: #d6000d;
-    border: none;
-    width: 200px;
-    height: 40px;
+.cx-celular {
+  border-radius: 5px;
+  background-color: var(--Cinza);
+  border: none;
+  width: 200px;
+  height: 40px;
 }
 
-/* Avaliação */
+.ligar {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--vermelho);
+  border: none;
+  width: 200px;
+  height: 40px;
+}
 
-.circulo{
+/* Container 3 */
+
+.container-3{
+  width: max-content;
+  height: max-content;
+  margin: 0 auto 100px;
+  
+}
+
+/* Avaliação 1 */
+
+.circulo {
+  color: var(--vermelho);
+  margin-left: 10px;
   float: left;
   font-size: 100px;
 }
 
-.avaliacao-1{
+.avaliacao-1 {
+  margin-right: 15px;
+  border-radius: 10px;
   width: 600px;
-  height: 200px;
-  background-color: #d6000d;
-}
-
-.comentario{
+  height: 150px;
+  background-color: var(--Cinza);
   float: left;
 }
 
-.nome-sobre{
+.comentario {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 450px;
   float: left;
+}
+
+.comentario p {
+  font-size: 16px;
+}
+
+.nome-sobre {
+  margin-left: 15px;
+  margin-top: 20px;
+  float: left;
+}
+
+.nome-sobre h1 {
+  font-size: 28px;
+}
+
+.nome-sobre h2 {
+  font-size: 18px;
+}
+
+/* Avaliação 2 */
+
+.circulo-2 {
+  color: var(--vermelho);
+  margin-left: 10px;
+  font-size: 100px;
+  float: left;
+}
+
+.avaliacao-2 {
+  border-radius: 10px;
+  width: 600px;
+  height: 150px;
+  background-color: var(--Cinza);
+  float: left;
+}
+
+.comentario-2 {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 450px;
+  float: left;
+}
+
+.comentario-2 p {
+  font-size: 16px;
+}
+
+.nome-sobre-2 {
+  margin-left: 15px;
+  margin-top: 20px;
+  float: left;
+}
+
+.nome-sobre h1 {
+  font-size: 28px;
+}
+
+.nome-sobre h2 {
+  font-size: 18px;
+}
+
+/* Rodape */
+
+.rodape {
+  width: auto;
+  color: white;
+  background-color: black;
+}
+
+.conteudo{
+  
+}
+/*Titulos */
+
+.rodape h2{
+  font-size: 26px;
+}
+
+.logo-rodape , .sobre , .contato, .redes-sociais{
+  margin-left: 50px;
+  float: left;
+}
+
+.logo-rodape h1{
+  font-size: 36px;
+  
 }
