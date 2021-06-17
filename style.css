@@ -296,20 +296,28 @@ body {
 }
 
 .conteudo{
-  
+  width: max-content;
+  height: 100px;
+  margin: 0 auto;
 }
 /*Titulos */
 
-.rodape h2{
+.logo-rodape h1, .rodape h2{
   font-size: 26px;
 }
 
 .logo-rodape , .sobre , .contato, .redes-sociais{
-  margin-left: 50px;
   float: left;
 }
 
-.logo-rodape h1{
-  font-size: 36px;
-  
+.logo-rodape , .sobre , .contato{
+  margin-right: 200px;
+}
+
+.redes-sociais ul {
+  margin: 0 100px;
+}
+
+.redes-sociais ul li {
+  display: inline;
 }
