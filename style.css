@@ -166,9 +166,6 @@ body {
 
 /* Contato */
 
-.contato {
-  margin-bottom: 100px;
-}
 .contato h2 {
   font-size: 20px;
 }
@@ -198,7 +195,7 @@ body {
 .container-3{
   width: max-content;
   height: max-content;
-  margin: 0 auto 100px;
+  margin: 150px auto 50px;
   
 }
 
@@ -279,26 +276,27 @@ body {
   float: left;
 }
 
-.nome-sobre h1 {
+.nome-sobre-2 h1 {
   font-size: 28px;
 }
 
-.nome-sobre h2 {
+.nome-sobre-2 h2 {
   font-size: 18px;
 }
 
 /* Rodape */
 
 .rodape {
-  width: auto;
   color: white;
   background-color: black;
 }
 
 .conteudo{
+  padding: 50px 0 50px;
   width: max-content;
   height: 100px;
   margin: 0 auto;
+  /* background-color: #d6000d; */
 }
 /*Titulos */
 
@@ -315,9 +313,17 @@ body {
 }
 
 .redes-sociais ul {
-  margin: 0 100px;
+  text-align: center;
+  float: left;
 }
 
 .redes-sociais ul li {
-  display: inline;
+  margin-left: 25px;
+  list-style: none;
+  float: left;
+}
+
+.redes-sociais ul li i {
+  color: var(--vermelho);
+  font-size: 200%
 }
