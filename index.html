@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
             <img src="assets/logo.png" alt="">
         </div>
@@ -21,31 +21,32 @@
                 <li>Inicio</li>
                 <li>Serviços</li>
                 <li>Contato</li>
-                <li><button>Login</button></li>
+                <li id="login"><button >Login</button></li>
             </ul>
         </nav>
-        <div class="clear"></div>
     </header>
-    <main class="container-1">
+    <section id="container-1">
         <div class="img-1">
             <img src="assets/video_call.png" alt="">
         </div>
         <div class="texto-1">
             <h2>Alavanque seu negócio com um</h2>
             <h1>Website incrível</h1>
-            <input type="button" value="Solicitar orçamento">
+            <button id="orcamento">Solicitar orçamento</button>
         </div>
-        <div class="clear"></div>
-    </main>
-    <main class="container-2">
+    </section>
+    <section id="container-2">
+        <div class="img-2">
+            <img src="assets/coding_.png" alt="">
+        </div>
         <div class="texto-2">
             <ul class="icones">
-                 <li><i class="fas fa-check-circle"></i></li>
-                 <li><i class="fas fa-check-circle"></i></li>
-                 <li><i class="fas fa-check-circle"></i></li>
-                 <li><i class="fas fa-check-circle"></i></li>
-                 <li><i class="fas fa-check-circle"></i></li>
-                 <li><i class="fas fa-check-circle"></i></li>
+                    <li><i class="fas fa-check-circle"></i></li>
+                    <li><i class="fas fa-check-circle"></i></li>
+                    <li><i class="fas fa-check-circle"></i></li>
+                    <li><i class="fas fa-check-circle"></i></li>
+                    <li><i class="fas fa-check-circle"></i></li>
+                    <li><i class="fas fa-check-circle"></i></li>
             </ul>
             <ul class="menu">
                 <li>Domínio personalizado</li>
@@ -56,24 +57,20 @@
                 <li>Blog integrado</li>
             </ul>
         </div>
-        <div class="img-2">
-            <img src="assets/coding_.png" alt="">
-        </div>
-        <div class="clear"></div>
         <div class="contato">
             <h2>Nossa equipe está à disposição!</h2>
-            <div class="celular">
-                <input class="cx-celular" type="text" placeholder="   Celular"> 
-                <input class="ligar" type="button" value="Ligamos para você">
-            </div>
         </div>
-    </main>
-    <main class="container-3">
+        <div class="celular">
+            <input class="cx-celular" type="text" placeholder="Celular">
+            <input class="ligar" type="button" value="Ligamos para você">
+        </div>
+    </section>
+    <section id="container-3">
         <div class="avaliacao-1">
             <div class="circulo">
                 <i class="fas fa-circle"></i>
             </div>
-            <div class="comentario-2">
+            <div class="comentario">
                 <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
             </div>
             <div class="nome-sobre">
@@ -81,46 +78,42 @@
                 <h2>Construtura Minari</h2>
             </div>
         </div>
-        <div class="avaliacao-2">
-            <div class="circulo-2">
+        <div class="avaliacao-1">
+            <div class="circulo">
                 <i class="fas fa-circle"></i>
             </div>
-            <div class="comentario-2">
+            <div class="comentario">
                 <p>Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
             </div>
-            <div class="nome-sobre-2">
+            <div class="nome-sobre">
                 <h1>Maria Rita</h1>
                 <h2>Escola Criança Feliz</h2>
             </div>
         </div>
-        <div class="clear"></div>
-    </main>
-    <footer class="rodape">
-        <div class="conteudo">
+    </section>
+    <footer id="footer">
             <div class="logo-rodape">
                 <h1>Codar.</h1>
                 <p>Criamos websites incríveis</p>
             </div>
             <div class="sobre">
-                <h2>Sobre</h2>
-                <p>Amamos criar soluções e entregar sites incríveis</p>
+                <h2 class="font-1-5bold">Sobre</h2>
+                <p class="font-1">Amamos criar soluções e entregar sites incríveis</p>
             </div>
-            <div class="contato">
-                <h2>Contato</h2>
-                <p>123 Av. Manjar - Nárnia</p>
-                <p>+55 96 2321-3131</p>
+            <div class="contato-footer">
+                <h2 class="font-1-5bold">Contato</h2>
+                <p class="font-1">123 Av. Manjar - Nárnia</p>
+                <p class="font-1">+55 11 2321-3131</p>
                 <a href="mailto:contato@codar.com">contato@codar.com</a>
             </div>
             <div class="redes-sociais">
-                <h2>Redes sociais</h2>
-                <ul>
+                <h2 class="font-1-5bold">Redes sociais</h2>
+                <ul class="icon-rs">
                     <li><i class="fab fa-facebook-square"></i></li>
                     <li><i class="fab fa-instagram-square"></i></li>
                     <li><i class="fab fa-twitter-square"></i></li>
                 </ul>
             </div>
-            <div class="clear"></div>
-        </div>
     </footer>
 </body>
 </html>
