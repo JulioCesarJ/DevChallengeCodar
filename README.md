@@ -1,5 +1,5 @@
 
-<img src="design/mobile.png" width="200em"> <img src="design/desktop.png" width="700em">
+<img src="design/mobile.png" width="200em"> <img src="design/desktop.png" width="710em">
 
 
 Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
