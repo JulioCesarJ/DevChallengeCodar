@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-<img src="design/desktop.png" width:"500">
+<img src="design/desktop.png" width="500">
 
 Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
 
